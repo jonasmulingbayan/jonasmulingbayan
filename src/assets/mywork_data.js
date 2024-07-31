@@ -196,7 +196,7 @@ const mywork_data = [
         w_name:"Loadr",
         w_img:project15_img,
         w_gh_link: "#",
-        w_demo_link: "https://developer.loadr.me/",
+        w_demo_link: "https://loadr.me/",
         w_category: "Wordpress",
         w_proj: "Company Project",
         w_description: "This website was created using WordPress with Elementor as the page builder. This is my fifth WordPress website as a WordPress Developer.",
