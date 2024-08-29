@@ -143,7 +143,7 @@ const Projects = ({ theme }) => {
         ))}
       </div>
       <div className="pagination">
-        <button onClick={goToPrevPage} disabled={currentPage === 1}
+        <button onClick={goToPrevPage} disabled={currentPage === 1} aria-label="Previous Project"
           style={{
             cursor: currentPage === 1 ? 'not-allowed' : 'pointer'
           }}>Previous</button>
@@ -152,7 +152,7 @@ const Projects = ({ theme }) => {
             {i + 1}
           </button>
         ))}
-        <button onClick={goToNextPage} disabled={currentPage === totalPages}
+        <button onClick={goToNextPage} disabled={currentPage === totalPages} aria-label="Next Project"
           style={{
             cursor: currentPage === totalPages ? 'not-allowed' : 'pointer'
           }}>Next</button>
