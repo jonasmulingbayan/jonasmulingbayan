@@ -17,6 +17,7 @@ import project16_img from '../assets/projects/portfolio-16.png'
 import project17_img from '../assets/projects/portfolio-17.png'
 import project18_img from '../assets/projects/portfolio-18.png'
 import project19_img from '../assets/projects/portfolio-19.png'
+import project20_img from '../assets/projects/portfolio-20.png'
 
 const mywork_data = [
     {
@@ -245,6 +246,17 @@ const mywork_data = [
         w_proj: "Freelance Project",
         w_description: "I created this website for a freelancing client. I designed and developed the user interface using HTML, CSS, Bootstrap, and JavaScript. For the backend, I used PHP and MySQL",
         w_tech_stack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript","Bootstrap"],
+    },
+    {
+        w_no:20,
+        w_name:"LDL Cleaning Services",
+        w_img:project20_img,
+        w_gh_link: "#",
+        w_demo_link: "https://ldlcleaning.com/",
+        w_category: "Wordpress",
+        w_proj: "Freelance Project",
+        w_description: "I created this website for a freelancing client. I designed and developed the user interface using WordPress with Elementor as the page builder. This is my eight WordPress website as a WordPress Developer.",
+        w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
 ]
  
