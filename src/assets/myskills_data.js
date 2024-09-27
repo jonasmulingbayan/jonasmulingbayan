@@ -4,7 +4,7 @@ import tools3 from '../assets/tools/js.png'
 import tools4 from '../assets/tools/bootstrap.png'
 import tools5 from '../assets/tools/tailwind.png'
 import tools6 from '../assets/tools/php.png'
-//import tools7 from '../assets/tools/laravel.png'
+import tools7 from '../assets/tools/laravel.png'
 import tools8 from '../assets/tools/wordpress.png'
 import tools9 from '../assets/tools/elementor.png'
 import tools10 from '../assets/tools/reactjs.png'
@@ -48,11 +48,11 @@ const skills_data = [
         s_img:tools6,
         s_name: "PHP"
     },
-    /*{
+    {
         s_no:7,
         s_img:tools7,
         s_name: "Laravel"
-    },*/
+    },
     {
         s_no:8,
         s_img:tools8,
