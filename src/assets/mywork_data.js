@@ -154,7 +154,7 @@ const mywork_data = [
         w_demo_link: "https://digital.massonshealthcare.com.au/",
         w_category: "Wordpress",
         w_proj: "Company Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my first WordPress website as a WordPress Developer.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized SiteGround for web hosting and Gravity Forms. This is my first WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
 
     },
@@ -166,9 +166,8 @@ const mywork_data = [
         w_demo_link: "https://in1gotech.com/",
         w_category: "Wordpress",
         w_proj: "Company Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my second WordPress website as a WordPress Developer.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized Contact Form 7, Advanced Custom Fields, Smart Slider, and MAIL SMTP. This is my second WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
-
     },
     {
         w_no:13,
@@ -178,7 +177,7 @@ const mywork_data = [
         w_demo_link: "https://day1.pro/",
         w_category: "Wordpress",
         w_proj: "Company Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my third WordPress website as a WordPress Developer.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized Web.com for web hosting and WPForms for the contact form. This is my third WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
     {
@@ -189,7 +188,7 @@ const mywork_data = [
         w_demo_link: "https://1gologistics.tech/",
         w_category: "Wordpress",
         w_proj: "Company Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my fourth WordPress website as a WordPress Developer.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized Contact Form 7. This is my fourth WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
     {
@@ -200,7 +199,7 @@ const mywork_data = [
         w_demo_link: "https://loadr.me/",
         w_category: "Wordpress",
         w_proj: "Company Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my fifth WordPress website as a WordPress Developer.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized Contact Form 7 and WP SMTP Mail. This is my fifth WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
     {
@@ -211,7 +210,7 @@ const mywork_data = [
         w_demo_link: "https://thebesttemplate.com/",
         w_category: "Wordpress",
         w_proj: "Freelance Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my sixth WordPress website as a WordPress Developer. I created it for a freelancing client.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Blocksy, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized Elementor. This is my sixth WordPress website as a WordPress Developer. I created it for a freelancing client.",
         w_tech_stack: ["WordPress", "Blocksy", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
     {
@@ -222,7 +221,7 @@ const mywork_data = [
         w_demo_link: "https://jonasmulingbayan.github.io/image-search-engine/",
         w_category: "HTML",
         w_proj: "JavaScript | API Practice",
-        w_description: "This website was created using HTML, CSS, and JavaScript. It is for practice purposes only, to familiarize myself with fetching APIs using JavaScript.",
+        w_description: "This website was created using HTML, CSS, and JavaScript. It is a practice project to familiarize myself with fetching APIs using JavaScript.",
         w_tech_stack: ["HTML", "CSS", "JavaScript"]
     },
     {
@@ -233,7 +232,7 @@ const mywork_data = [
         w_demo_link: "http://ph.tawoquest.com/",
         w_category: "Wordpress",
         w_proj: "Company Project",
-        w_description: "This website was created using WordPress with Elementor as the page builder. This is my seventh WordPress website as a WordPress Developer.",
+        w_description: "This website was created using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized Contact Form 7. This is my seventh WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
     {
@@ -244,7 +243,7 @@ const mywork_data = [
         w_demo_link: "http://poko88.lucarnuo.com/",
         w_category: "PHP",
         w_proj: "Freelance Project",
-        w_description: "I created this website for a freelancing client. I designed and developed the user interface using HTML, CSS, Bootstrap, and JavaScript. For the backend, I used PHP and MySQL",
+        w_description: "I created this website for a freelancing client. I designed and developed the user interface using HTML, CSS, Bootstrap, and JavaScript. For the backend, I used PHP and MySQL.",
         w_tech_stack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript","Bootstrap"],
     },
     {
@@ -255,7 +254,7 @@ const mywork_data = [
         w_demo_link: "https://ldlcleaning.com/",
         w_category: "Wordpress",
         w_proj: "Freelance Project",
-        w_description: "I created this website for a freelancing client. I designed and developed the user interface using WordPress with Elementor as the page builder. This is my eight WordPress website as a WordPress Developer.",
+        w_description: "I created this website for a freelancing client. I designed and developed the user interface using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized HostGator for web hosting, Contact Form 7, and added a custom chat button to direct users to WhatsApp. This is my eighth WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
 ]
