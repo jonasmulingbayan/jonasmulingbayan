@@ -11,7 +11,8 @@ const experiences_data = [
       company_image: company1,
       date: "September 29, 2023 - Present",
       description: [
-        "Developed and maintained interactive, responsive websites using HTML, CSS, JavaScript, Bootstrap, WordPress, and Elementor.",
+        "Developed and maintained interactive, responsive websites using HTML, CSS, JavaScript, Bootstrap, WordPress, Elementor, PHP and Laravel.",
+        "Integrate Xendit Payment Gateway to laravel websites",
         "Integrated Google Analytics and Pipedrive CRM to websites.",
         "Setup UTM Parameters using Google Tag Manager.",
         "Fixed page indexing in Google Search Console.",
