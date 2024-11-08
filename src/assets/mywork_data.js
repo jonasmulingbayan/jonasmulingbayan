@@ -18,8 +18,20 @@ import project17_img from '../assets/projects/portfolio-17.png'
 import project18_img from '../assets/projects/portfolio-18.png'
 import project19_img from '../assets/projects/portfolio-19.png'
 import project20_img from '../assets/projects/portfolio-20.png'
+import project21_img from '../assets/projects/portfolio-21.png'
 
 const mywork_data = [
+    {
+        w_no:21,
+        w_name:"CertifyPro Training and Assessment Center",
+        w_img:project21_img,
+        w_gh_link: "#",
+        w_demo_link: "https://certifypro.online/",
+        w_category: "PHP",
+        w_proj: "Company Project",
+        w_description: "I developed this website using the Laravel PHP framework, integrating it with the Xendit Payment Gateway for seamless transactions. The website features a MySQL database for backend management, with a frontend built using HTML, CSS, and JavaScript. This project showcases my expertise in building dynamic and secure web applications with modern technologies.",
+        w_tech_stack: ["Laravel", "XENDIT", "MySQL", "HTML", "CSS", "JavaScript"]
+    },
     {
         w_no:1,
         w_name:"The Park Pizza E-Commerce",
@@ -257,6 +269,7 @@ const mywork_data = [
         w_description: "I created this website for a freelancing client. I designed and developed the user interface using WordPress with Elementor as the page builder. In addition to WordPress, Elementor, PHP, MySQL, HTML, CSS, and JavaScript, I also utilized HostGator for web hosting, Contact Form 7, and added a custom chat button to direct users to WhatsApp. This is my eighth WordPress website as a WordPress Developer.",
         w_tech_stack: ["WordPress", "Elementor", "PHP", "MySQL", "HTML", "CSS", "JavaScript"]
     },
+  
 ]
  
 export default mywork_data;

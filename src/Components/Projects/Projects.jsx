@@ -194,7 +194,9 @@ const getBackgroundColor = (tech) => {
     'Figma': '#0ACF83',
     'Blocksy': '#000',
     'React': '#61DAFB',
-    'Vite': '#646cff'
+    'Vite': '#646cff',
+    'Laravel': '#FF2D20',
+    'XENDIT': '#0B7F56'
   };
   return techColors[tech] || 'initial';
 };
@@ -213,7 +215,9 @@ const getTextColor = (tech) => {
     'Figma': '#000000',
     'Blocksy': '#ffffff',
     'React': '#000000',
-    'Vite': '#000000'
+    'Vite': '#000000',
+    'Laravel': '#ffffff',
+    'XENDIT': '#ffffff'
   };
   return techTextColors[tech] || '#000000';
 };
