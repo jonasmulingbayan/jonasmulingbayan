@@ -93,7 +93,7 @@ const About = ({ theme }) => {
                                 <li><strong>Email:</strong> <span>jonasmulingbayan@gmail.com</span></li>
                             </ul>
                             <ul>
-                                <li><strong>Age:</strong> <span>28</span></li>
+                                <li><strong>Age:</strong> <span>29</span></li>
                                 <li><strong>Degree:</strong> <span>Bachelors</span></li>
                                 <li><strong>Freelance:</strong> <span>Available</span></li>
                             </ul>
@@ -113,7 +113,6 @@ const About = ({ theme }) => {
                                 </>
                             ) : (
                                 <CountUp start={0} end={Math.round(count)} duration={2} />
-                                
                             )}
                         </div>
                         <p>{stats[index].text}</p>
