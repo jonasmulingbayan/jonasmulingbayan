@@ -13,7 +13,7 @@ import tools12 from '../assets/tools/vite.png'
 import tools13 from '../assets/tools/figma.png'
 import tools14 from '../assets/tools/git.png'
 import tools15 from '../assets/tools/github.png'
-
+import tools16 from '../assets/tools/python.png'
 
 
 
@@ -52,6 +52,11 @@ const skills_data = [
         s_no:7,
         s_img:tools7,
         s_name: "Laravel"
+    },
+    {
+        s_no:16,
+        s_img:tools16,
+        s_name: "Python"
     },
     {
         s_no:8,
