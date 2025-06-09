@@ -56,12 +56,12 @@
 }
 
 .experience.light .experience-card:hover{
-  border:2px solid var(--light-accent);
+  border:1px solid var(--light-accent);
 }
 
 .experience-card:hover{
-    border:2px solid var(--yellow);
-    transform: scale(1.02);
+    border:1px solid var(--yellow);
+    /* transform: scale(1.02); */
     transition: 0.4s;
 }
 .logo-header{
@@ -100,8 +100,15 @@
   
 .experience-details {
   font-size: 16px;
-  color: #d8d5d5;
   margin-bottom: 15px;
+}
+
+.experience-details.lightmode{
+  color: #000;
+}
+
+.experience-details.darkmode{
+   color: #d8d5d5;
 }
   
 .experience-description {

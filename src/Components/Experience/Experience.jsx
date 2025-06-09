@@ -18,7 +18,7 @@ const Experience = ({ theme }) => {
           <h3 className="experience-company">{exp.company}</h3>
           </div>
           <p className="experience-position">{exp.position}</p>
-          <p className="experience-details">{exp.location} | {exp.date}</p>
+          <p className={`experience-details ${theme}`}>{exp.location} | {exp.date}</p>
           <ul className="experience-description">
             {exp.description.map((item, idx) => (
               <li key={idx}>{item}</li>
