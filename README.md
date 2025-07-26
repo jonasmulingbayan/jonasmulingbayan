@@ -36,7 +36,7 @@ I enjoy working with web designs and take pride in bringing them to life through
 🎂 Birthday: 18 November 1995
 📍 City: Bacoor City, Cavite
 📧 Email: jonasmulingbayan@gmail.com
-🎓 Degree: Bachelors in Information Technology
+🎓 Degree: Bachelors in Information Technolog
 🧑 Age: 29
 🔓 Freelance: Available
 
