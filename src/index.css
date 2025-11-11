@@ -1,0 +1,41 @@
+/* index.css */
+:root {
+  --yellow: #ffc201;
+  --black: #000;
+  --white: #fff;
+  --body-black: #161513;
+  --navbar-sticky: #202020;
+  --medium-black: #313131;
+  --light-gray: #d8d8d8;
+  --light-accent: #007bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Google Sans';
+  background: var(--body-black);
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--medium-black);
+  border-radius: 25px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--medium-black);
+}
+
+

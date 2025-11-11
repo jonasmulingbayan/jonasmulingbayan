@@ -1,0 +1,20 @@
+.app{
+  background: var(--body-black);
+  color: var(--white);
+}
+
+.app.light{
+  background: var(--white);
+  color: var(--black);
+}
+
+
+::selection {
+  background: var(--yellow);
+  color: var(--white);
+}
+
+.app.light ::selection {
+  background: var(--light-accent);
+  color: var(--white);
+}

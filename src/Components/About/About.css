@@ -1,0 +1,346 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    padding: 80px 170px 20px 170px;
+}
+
+.about.light {
+    /* Light mode styles */
+    background-color: var(--white);
+    color:  var(--black);
+    
+}
+
+.about-title{
+    position: relative;
+}
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+
+.about-title img{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    z-index: -1;
+    width: 150px;
+}
+
+.about-sections{
+    display: flex;
+    gap:80px;
+}
+.about-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left .box{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.about.light .box{
+    background: var(--black);
+}
+
+.about-left .box::before{
+    content: '';
+    position: absolute;
+    inset: -70px 135px;
+    background: var(--yellow);
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+ 
+.about.light .box::before{
+    background: var(--light-accent);
+}
+
+.about-left .box:hover::before{
+    inset: -70px -100px;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.about-left .box .content{  
+    position: absolute;
+    inset: 5px;
+    z-index:3;
+    overflow: hidden;
+}
+
+.about-left img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+
+
+
+/*.about-left img{
+    height: 450px;
+    width: 350px;
+}*/
+
+
+.about-left img:hover{
+    transform: scale(1.06);
+    transition: 0.8s;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.about-skill{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.about-skill p{
+    min-width: 150px;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+}
+
+.about-achievements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.about-achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    transition: 0.5s;
+}
+
+.about-achievement .count{
+    font-size:50px;
+    font-weight: 700;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, #ffc201 9%, #ffc201 56%, rgba(251,251,254,1) 92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about.light .about-achievement .count{
+    background: var(--light-accent);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.about-achievement p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about-achievement:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+
+.about-informations{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:30px;
+}
+.about-paragraph h3{
+    font-size:30px;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, #ffc201 9%, #ffc201 56%, rgba(251,251,254,1) 92%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about.light .about-paragraph h3{
+    background: var(--light-accent);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.about-paragraph p{
+    font-size:20px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    gap:90px;
+}
+.about-informations ul{
+    width: 100%;
+}
+.about-informations ul li{
+    list-style: none;
+    font-size:20px;
+    margin-bottom: 5px;
+}
+
+@media(max-width:1024px){
+    .about{
+        gap:50px;
+        padding: 80px 50px 20px 50px;
+    }
+    .about-left{
+        text-align: center;
+    }
+    .about-sections{
+        flex-direction: column;
+        gap:80px;
+    }
+}
+@media(max-width:768px){
+    .about{
+        align-items: start;
+        gap:60px;
+        padding: 50px 30px 20px 30px;
+    } 
+    .about-title h1{
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .about-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-paragraph{
+        font-size:18px;
+        line-height: 32px;
+    }
+
+    .about-skill{
+        gap:20px;
+        align-items: center;
+    }
+
+    .about-skill p{
+        font-size:18px;
+    }
+
+    .about-skill hr{
+        height: 6px;
+    }
+
+    .about-achievements{
+        justify-content: space-between;
+    }
+    .about-achievement{
+        gap: 10px;
+    }
+    .about-achievement .count{
+        font-size:34px;
+        font-weight: 700;
+    }
+    .about-achievement p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .about-paragraph h3{
+        font-size:22px;
+    }
+    .about-paragraph p{
+        font-size:18px;
+    }
+
+    .about-informations ul li{
+        font-size:18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:725px){
+    .information{
+        flex-direction: column;
+        gap:0px;
+    }
+}
+
+@media(max-width:550px){
+    .about{
+        padding: 50px 30px 5px 30px !important;
+        gap:20px;
+    } 
+    .about-title h1{
+        font-size: 35px;
+    }
+    .about-title img{
+        right: -10px;
+        width: 115px;
+    }
+}
